@@ -1,0 +1,8 @@
+2023/12/08 12:30:37 [notice] 12100#6240: signal process started
+2023/12/08 12:51:40 [notice] 20272#10800: signal process started
+2023/12/08 12:51:40 [error] 20272#10800: CreateFile() "C:\Users\filip\Desktop\Faks\4. godina\Zimski\Web2\Web2-Lab4\nginx-1.24.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/12/08 12:53:43 [error] 5484#9516: *7 CreateFile() "C:\Users\filip\Desktop\Faks\4. godina\Zimski\Web2\Web2-Lab4\nginx-1.24.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/"
+2023/12/08 13:17:22 [emerg] 4624#4816: cannot load certificate "./mysite.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('./mysite.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/12/08 13:17:48 [emerg] 10944#13780: cannot load certificate "C:/mysite.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('C:/mysite.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2023/12/08 13:18:10 [notice] 9872#11832: signal process started
+2023/12/08 13:20:56 [notice] 14196#20020: signal process started
