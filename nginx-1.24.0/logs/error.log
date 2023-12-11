@@ -6,3 +6,11 @@
 2023/12/08 13:17:48 [emerg] 10944#13780: cannot load certificate "C:/mysite.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('C:/mysite.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
 2023/12/08 13:18:10 [notice] 9872#11832: signal process started
 2023/12/08 13:20:56 [notice] 14196#20020: signal process started
+2023/12/11 01:09:16 [error] 20936#6388: *38 CreateFile() "C:\Users\filip\Desktop\Faks\4. godina\Zimski\Web2\Web2-Lab4\nginx-1.24.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/"
+2023/12/11 01:20:54 [error] 20936#6388: *44 CreateFile() "C:\Users\filip\Desktop\Faks\4. godina\Zimski\Web2\Web2-Lab4\nginx-1.24.0/html/lab4/images/lavander.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lab4/images/lavander.jpg HTTP/1.1", host: "localhost", referrer: "https://localhost/lab4/"
+2023/12/11 01:20:54 [error] 20936#6388: *45 CreateFile() "C:\Users\filip\Desktop\Faks\4. godina\Zimski\Web2\Web2-Lab4\nginx-1.24.0/html/lab4/images/tupliseed.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lab4/images/tupliseed.jpg HTTP/1.1", host: "localhost", referrer: "https://localhost/lab4/"
+2023/12/11 01:21:17 [error] 20936#6388: *44 CreateFile() "C:\Users\filip\Desktop\Faks\4. godina\Zimski\Web2\Web2-Lab4\nginx-1.24.0/html/lab4/images/lavander.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lab4/images/lavander.jpg HTTP/1.1", host: "localhost", referrer: "https://localhost/lab4/"
+2023/12/11 01:21:17 [error] 20936#6388: *45 CreateFile() "C:\Users\filip\Desktop\Faks\4. godina\Zimski\Web2\Web2-Lab4\nginx-1.24.0/html/lab4/images/tupliseed.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /lab4/images/tupliseed.jpg HTTP/1.1", host: "localhost", referrer: "https://localhost/lab4/"
+2023/12/11 01:27:41 [notice] 3092#12552: signal process started
+2023/12/11 01:28:52 [notice] 9380#15052: signal process started
+2023/12/11 01:41:54 [notice] 11048#10220: signal process started
